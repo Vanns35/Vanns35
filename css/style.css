@@ -1,0 +1,20 @@
+body{
+    background: #ffffff;
+}
+
+#header{
+    background-color: white;
+}
+
+#infoDiv{
+    align-items: center;
+}
+
+#infoDiv .v1{
+    border-left: 5px solid #5227eb;
+}
+
+.v2{
+    border-left: 5px solid #5227eb;
+    margin-top: 10vh;
+}
