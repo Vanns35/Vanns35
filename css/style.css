@@ -18,3 +18,8 @@ body{
     border-left: 5px solid #5227eb;
     margin-top: 10vh;
 }
+
+/* Dotted border */
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
