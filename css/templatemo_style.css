@@ -58,6 +58,7 @@ ul { margin: 0; }
 .margin-top-15 { margin-top: 15px; }
 .margin-top-30 { margin-top: 30px; }
 .padding-30 { padding: 30px; }
+.padding-20 { padding: 10px; }
 .templatemo-section-title { display: block; }
 .templatemo-home-image, 
 .templatemo-image-overlay,
@@ -351,12 +352,20 @@ a#mobile_menu {
 .templatemo-member-img-container {
   display: inline-block;
   position: relative;
+  border: 3px solid #795c08;
+  border-radius: 10px;
 }
 .templatemo-img-frame { position: absolute; }
+
+.tm-team-member-img {
+  margin: 15px;
+}
 
 .templatemo-service-image {
   display: block;
   float: left;
+  height: 64px;
+  width: 64px;
 }
 .templatemo-service-container { margin-top: 15px; }
 .templatemo-service-content { margin-left: 90px; }
@@ -415,7 +424,7 @@ Position must be relative!
     overflow: hidden;
 }
 .templatemo-team .jcarousel { width: 250px; }
-.templatemo-products .jcarousel { width: 275px; }
+.templatemo-projects .jcarousel { width: 275px; }
 /*
 This is the container of the carousel items.
 You must ensure that the position is relative or absolute and
@@ -440,10 +449,12 @@ have a fixed width and height (but it's not required).
     float: left;
 }
 
-.templatemo-team .jcarousel-control-prev { left: 0; }
-.templatemo-team .jcarousel-control-next { right: 0; }
-.templatemo-products .jcarousel-control-prev { left: -50px; }
-.templatemo-products .jcarousel-control-next { right: -50px; }
+/* .templatemo-team .jcarousel-control-prev { left: 0; }
+.templatemo-team .jcarousel-control-next { right: 0; } */
+.templatemo-team .jcarousel-control-prev { left: -50px; }
+.templatemo-team .jcarousel-control-next { right: -50px; }
+.templatemo-projects .jcarousel-control-prev { left: -50px; }
+.templatemo-projects .jcarousel-control-next { right: -50px; }
 .jcarousel-control-prev,
 .jcarousel-control-next {
   opacity: 1;
@@ -471,10 +482,11 @@ have a fixed width and height (but it's not required).
 }
 .templatemo-team .jcarousel-control-prev, 
 .templatemo-team .jcarousel-control-next {
-  top: 55px;
+  /* top: 55px; */
+  top: 110px;
 }
-.templatemo-products .jcarousel-control-prev,
-.templatemo-products .jcarousel-control-next {
+.templatemo-projects .jcarousel-control-prev,
+.templatemo-projects .jcarousel-control-next {
   top: 110px;
 }
 
@@ -569,8 +581,8 @@ have a fixed width and height (but it's not required).
 @media screen and (max-width: 400px) {
   .templatemo-black-bg { padding: 15px; }
   .templatemo-brown-rectangle-bg { padding: 5px; }
-  .templatemo-products .jcarousel-control-prev { left: 0; }
-  .templatemo-products .jcarousel-control-next { right: 0; }
+  .templatemo-projects .jcarousel-control-prev { left: 0; }
+  .templatemo-projects .jcarousel-control-next { right: 0; }
   .templatemo-product-container {
     padding-top: 8px;
     padding-bottom: 8px;
