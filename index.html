@@ -1,303 +1,796 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<!-- head section -->
 
 <head>
-	<!-- 
-    	Brownie Template
-    	http://www.templatemo.com/preview/templatemo_440_brownie
-
-    	Credits:
-    	http://sorgalla.com/jcarousel/
-    	http://unsplash.com
-    	http://absurdwordpreferred.deviantart.com/art/FREE-Cogs-Transparent-PNG-145452644
-    -->
-	<title>Vandana Ghadge</title>
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-	<link href="css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="css/templatemo_style.css" rel="stylesheet" type="text/css">
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Software Developer">
+    <meta name="author" content="Vandana Ghadge">
+    <!-- page title -->
+    <title>Vanns35</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/app-icons/css/app-icons.css">
+    <!-- Bootstrap + Vanns35 main styles -->
+    <link rel="stylesheet" href="assets/css/vanns35.css">
 </head>
 
-<body>
-	<nav id="responsive-menu">
-		<ul class="menu-holder">
-			<li><a href="#home"><i class="fa fa-briefcase"></i>About Me</a></li>
-			<li><a href="#services"><i class="fa fa-cogs"></i>Technical Skills</a></li>
-			<li><a href="#projects"><i class="fa fa-list"></i>Latest Project</a></li>
-			<li><a href="#contact"><i class="fa fa-envelope"></i>Contact Me</a></li>
-		</ul>
-	</nav>
-	<div class="templatemo-site-header">
-		<div class="container">
-			<div class="row templatemo-position-relative">
-				<nav class="hidden-xs text-uppercase templatemo-nav">
-					<ul class="menu-holder">
-						<!-- <li class="active"><a href="#home">Home</a></li> -->
-						<li><a href="#home">About Me</a></li>
-						<li><a href="#services">Technical Skills</a></li>
-						<li><a href="#projects">Latest Project</a></li>
-						<li><a href="#contact">Contact Me</a></li>
-					</ul>
-				</nav>
-				<h1 class="templatemo-site-name">
-					<span class="templatemo-brown">Vanns35</span>
-					<span class="templatemo-gold"></span>
-				</h1>
-				<div class="text-right visible-xs">
-					<a href="#" id="mobile_menu"><span class="fa fa-bars"></span></a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<section id="home" class="templatemo-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6">
-					<div class="templatemo-content-box text-right">
-						<h2 class="templatemo-brown">
-							<span class="templatemo-section-title">My Story</span>
-							<span class="templatemo-section-title"><span
-									class="templatemo-gold"><strong>>>></strong></span></span>
-						</h2>
-						<p class="margin-top-15">My story is every programmer's story: How we code, how we do not
-							code, how we lose patience, and at the same time handle the situation again. Being a
-							blogger,
-							being sarcastic, being an influencer, being a supporter is also some kind of natural
-							entities
-							that we have and that we live for... 😂😂😂</p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<div class="templatemo-flex-center templatemo-black-bg text-center">
-						<div class="templatemo-flex-center templatemo-brown-rectangle-bg">
-							<div class="templatemo-flex-item-ie-fix padding-30">
-								<div class="text-center templatemo-team-member-container">
-									<div>
-										<img src="images/team-img-frame.png" alt="Team img frame"
-											class="templatemo-img-frame">
-										<img src="images/Vanns35.jpg" alt="Team Member 1">
-									</div>
-									<h3 class="tm-team-member-title templatemo-gold text-uppercase margin-top-15">
-										Vandana Ghadge</h3>
-									<img src="images/underline.png" alt="Underline"
-										class="margin-top-15 img-responsive center-block">
-									<p class="margin-top-15">Team Player and confident individual with an apt to learn
-										new technologies.</p>
-									<p class="templatemo-brown text-uppercase">Software Developer</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-	<section id="services" class="templatemo-section">
-		<div class="container">
-			<div class="row">
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Vanns35</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#skills">Technical Skills</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#testmonial">Testmonial</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Blog</a>
+                </li>
+                <li class="item ml-md-3">
+                    <a href="javascript:void(0)" id="show-chat-button" class="btn btn-primary">Contact</a>
+                </li>
+                <!-- <li class="item ml-md-3">
+                    <a href="components.html" class="btn btn-primary">Components</a>
+                </li> -->
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
 
-				<div class="col-lg-6 col-md-6 col-md-push-6">
-					<div class="templatemo-content-box templatemo-second-box">
-						<h2 class="templatemo-brown">
-							<span class="templatemo-section-title">Technical</span>
-							<span class="templatemo-section-title">Skills <span class="templatemo-gold"><strong> -
-									</strong></span></span>
-						</h2>
-						<p class="margin-top-30">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudinl
-							dorem quis bibendum auctor, nisi elit consequat ipsum, nec sagit. tis</p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-md-pull-6">
-					<div class="templatemo-flex-center templatemo-black-bg">
-						<div class="templatemo-flex-center templatemo-brown-rectangle-bg">
-							<div class="jcarousel-wrapper templatemo-team">
-								<div class="jcarousel">
-									<ul>
-										<li>
-											<div class="text-center templatemo-team-member-container">
-												<div class="templatemo-member-img-container">
-													<img src="images/ReactNative.jpg" alt="Team Member 1"
-														class="tm-team-member-img">
-												</div>
-												<h3
-													class="tm-team-member-title templatemo-gold text-uppercase margin-top-15">
-													React Native</h3>
-												<img src="images/underline.png" alt="Underline"
-													class="margin-top-15 img-responsive center-block">
-												<p class="margin-top-15">React Native, Expo, React JS, Codeigniter.</p>
-												<p class="templatemo-brown text-uppercase">Software Developer</p>
-											</div>
-										</li>
-										<li>
-											<div class="text-center templatemo-team-member-container">
-												<div class="templatemo-member-img-container">
-													<img src="images/PHP.jpg" alt="Team Member 2"
-														class="tm-team-member-img">
-												</div>
-												<h3
-													class="tm-team-member-title templatemo-gold text-uppercase margin-top-15">
-													PHP MySQL</h3>
-												<img src="images/underline.png" alt="Underline" class="margin-top-15">
-												<p class="margin-top-15">Aenean sollicitudin, nisi elit consequat ipsum,
-													nec sagittis sem nibh id elit.</p>
-												<p class="templatemo-brown text-uppercase">Nisi elit</p>
-											</div>
-										</li>
-										<li>
-											<div class="text-center templatemo-team-member-container">
-												<div class="templatemo-member-img-container">
-													<img src="images/HTML.jpg" alt="Team Member 3"
-														class="tm-team-member-img">
-												</div>
-												<h3
-													class="tm-team-member-title templatemo-gold text-uppercase margin-top-15">
-													HTML CSS JS</h3>
-												<img src="images/underline.png" alt="Underline" class="margin-top-15">
-												<p class="margin-top-15">Ribendum auctornisi elit consequat ipsum, nisi
-													elit sem nibh id elit.</p>
-												<p class="templatemo-brown text-uppercase">Nec sagittis</p>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<a href="#" class="jcarousel-control-prev inactive">&lsaquo;</a>
-								<a href="#" class="jcarousel-control-next">&rsaquo;</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="projects" class="templatemo-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6">
-					<div class="templatemo-content-box text-right">
-						<h2 class="templatemo-brown">
-							<span class="templatemo-section-title">My</span>
-							<span class="templatemo-section-title">Latest <span
-									class="templatemo-gold"><strong>Projects</strong></span></span>
-						</h2>
-						<p class="margin-top-30">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
-							accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
-							vitae erat consequat auctor eu in elit.</p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<div class="templatemo-flex-center templatemo-black-bg">
-						<div class="templatemo-flex-center templatemo-brown-rectangle-bg">
-							<div class="jcarousel-wrapper templatemo-team">
-								<div class="jcarousel">
-									<ul>
-										<li>
-											<div class="templatemo-product-container text-center">
-												<h3 class="templatemo-gold">Equip9</h3>
-												<img src="images/Equip9.jpg" alt="Product 1"
-													class="templatemo-product-img">
-											</div>
-										</li>
-										<li>
-											<div class="templatemo-product-container text-center">
-												<h3 class="templatemo-gold">Online Freshcut</h3>
-												<img src="images/OnlineFreshcut.jpg" alt="Product 2"
-													class="templatemo-product-img">
-											</div>
-										</li>
-										<li>
-											<div class="templatemo-product-container text-center">
-												<h3 class="templatemo-gold">National Security Services</h3>
-												<img src="images/NSServices.jpg" alt="Product 3"
-													class="templatemo-product-img">
-											</div>
-										</li>
-									</ul>
-								</div>
-								<a href="#" class="jcarousel-control-prev inactive">&lsaquo;</a>
-								<a href="#" class="jcarousel-control-next">&rsaquo;</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="contact" class="templatemo-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-md-push-6">
-					<div class="templatemo-content-box templatemo-second-box">
-						<h2 class="templatemo-brown">Get In <span class="templatemo-gold">Touch</span></h2>
-						<p class="margin-top-30">For all your quesries you can contact me with your convenient way.</p>
-						<div>
-							<img src="images/social-icons.png" alt="Social icons" class="templatemo-social-icons-img">
-							<a href="http://www.facebook.com/vanns35">
-								<div id="facebook" class="templatemo-social-icon"></div>
-							</a>
-							<a href="http://www.twitter.com/vanns35">
-								<div id="twitter" class="templatemo-social-icon"></div>
-							</a>
-							<a href="http://plus.google.com">
-								<div id="linkedin" class="templatemo-social-icon"></div>
-							</a>
-							<a href="http://www.vimeo.com">
-								<div id="freelancer" class="templatemo-social-icon"></div>
-							</a>
-							<a href="http://www.flickr.com">
-								<div id="instagram" class="templatemo-social-icon"></div>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-md-pull-6">
-					<div class="templatemo-flex-center templatemo-black-bg text-center">
-						<div class="templatemo-flex-center templatemo-brown-rectangle-bg">
-							<div class="templatemo-flex-item-ie-fix padding-30">
-								<div class="templatemo-service-container padding-20">
-									<img src="images/home.png" alt="Plan 1" class="templatemo-service-image">
-									<div class="templatemo-service-content text-left margin-top-15">
-										<h3 class="templatemo-service-title templatemo-brown">Address</h3>
-										<p class="templatemo-service-description">M. Gandhinagar Yerwada Pune - 06.</p>
-									</div>
-								</div>
-								<div class="templatemo-service-container padding-20">
-									<img src="images/message.png" alt="Plan 2" class="templatemo-service-image">
-									<div class="templatemo-service-content text-left margin-top-15">
-										<h3 class="templatemo-service-title templatemo-brown">Email address</h3>
-										<p class="templatemo-service-description">vghagde35@gmail.com</p>
-									</div>
-								</div>
-								<div class="templatemo-service-container padding-20">
-									<img src="images/smartphone.png" alt="Plan 3" class="templatemo-service-image">
-									<div class="templatemo-service-content text-left margin-top-15">
-										<h3 class="templatemo-service-title templatemo-brown">Mobile Number</h3>
-										<p class="templatemo-service-description">+91 8380939065</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer class="container margin-top-30">
-		<div class="row">
-			<div class="col-lg-12">
-				<p class="templatemo-copyright-container text-uppercase small templatemo-brown">
-					<!-- <span class="templatemo-copyright-text">Copyright &copy; 2084 <a href="#" class="templatemo-gold">Company Name</a></span> -->
-					<!-- <span class="templatemo-copyright-design">Design: <a href="http://www.templatemo.com" class="templatemo-gold">templatemo</a></span> -->
-				</p>
-			</div>
-		</div>
-	</footer>
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="js/jquery.jcarousel.min.js"></script>
-	<script src="js/templatemo_script.js"></script>
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Vandana Ghadge</span>
+            </h1>
+            <p class="header-subtitle">Software Developer</p>
+
+            <button onclick="location.href='#about'" class="btn btn-primary">
+                Follow Me <i class="ti-arrow-down"></i> </button>
+
+        </div>
+        </div>
+    </header><!-- end of page header -->
+
+    <div id="chat-card-container" class="chat-card-container hidden">
+        <div class="chat-header">
+            <img src="assets/imgs/about/Vanns35.png" alt="Profile Picture" class="profile-picture">
+            <span class="chat-name">Vandana Ghadge</span>
+            <i class="close-icon ti-close" onclick="hideChatCard()"></i>
+        </div>
+
+        <div class="chat-messages">
+            <div class="chat-card">
+                <div class="chat-bubble chat-left">
+                    <p>How can I help you today?</p>
+                </div>
+            </div>
+
+
+            <!-- Suggestion Box -->
+            <div class="suggestion-card">
+                <button id="say-hi-button" class="chat-btn btn-rounded btn btn-outline-primary mt-4">
+                    Just saying hi!</button>
+                <button id="mentor-button" class="chat-btn btn-rounded btn btn-outline-primary mt-4">
+                    Interested in mentorship!</button>
+                <button id="hire-button" class="chat-btn btn-rounded btn btn-outline-primary mt-4">
+                    We would like to hire you!</button>
+                <button id="contact-me-button" class="chat-btn btn-rounded btn btn-outline-primary mt-4">
+                    Contact Me!</button>
+                <button id="option-button" class="chat-btn btn-rounded btn btn-outline-primary mt-4">
+                    Options Again!</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/about/Vanns35.png" class="about-img" alt="Image">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        My story is every programmer's story:
+                        <br> How we code, how we do not code, how we lose patience, and
+                        at the same time handle the situation again.
+                        <br> Being a blogger, being sarcastic, being an influencer, being a supporter is also some kind
+                        of
+                        natural entities that we have and that we live for... 😂😂😂
+                    </p>
+                    <a href="assets/vanns35.pdf" class="btn-rounded btn btn-outline-primary mt-4" download>Download
+                        CV</a>
+                </div>
+            </div>
+        </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- Education section -->
+    <section class="section" id="education">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Studied ?</p>
+            <h6 class="section-title mb-6">My degrees</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="education-card">
+                        <div class="body">
+                            <h6 class="title">Primary School</h6>
+                            <p class="subtitle">Maharashtra State Board (2012)<br>
+                                85.96%<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="education-card">
+                        <div class="body">
+                            <h6 class="title">Secondary School</h6>
+                            <p class="subtitle">Maharashtra State Board (2014)<br>
+                                85.96%<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="education-card">
+                        <div class="body">
+                            <h6 class="title">Bachlor of Science</h6>
+                            <p class="subtitle">Computer Science<br>
+                                Savitribai Phule Pune University (2017)<br>
+                                85.96%<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="education-card">
+                        <div class="body">
+                            <h6 class="title">Master of Science</h6>
+                            <p class="subtitle">Computer Science<br>
+                                Savitribai Phule Pune University (2019)<br>
+                                85.96%<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of Education section -->
+
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">Roles and responsibilities</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/pencil-case.svg" alt="Image" class="icon">
+                            <h6 class="title">Design</h6>
+                            <p class="subtitle">Design and create software architecture and design patterns to meet project requirements.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/toolbox.svg" alt="Image" class="icon">
+                            <h6 class="title">Develop</h6>
+                            <p class="subtitle">Write high-quality, testable and maintainable code to implement software features.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/responsive.svg" alt="Image" class="icon">
+                            <h6 class="title">Deploy</h6>
+                            <p class="subtitle">Ensure seamless deployment of software to production environments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/analytics.svg" alt="Image" class="icon">
+                            <h6 class="title">Document</h6>
+                            <p class="subtitle">Create and maintain clear, consise documentation for software development and maintenance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- Technical section -->
+    <section class="section" id="skill">
+        <div class="container text-center">
+            <p class="section-subtitle">What I know?</p>
+            <h6 class="section-title mb-6">Technical Skills</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <div class="circle">
+                            <img src="assets/imgs/about/web-design.png" alt="Image" class="icon">
+                        </div>
+                        <div class="body">
+                            <h6 class="title">Frontend</h6>
+                            <p class="subtitle"><i class="ti-check"></i>React JS/Redux</p>
+                            <p class="subtitle"><i class="ti-check"></i>JavaScript</p>
+                            <p class="subtitle"><i class="ti-check"></i>HTML/CSS/SASS/LESS</p>
+                            <p class="subtitle"><i class="ti-check"></i>Node JS/Webpack</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <div class="circle">
+                            <img src="assets/imgs/about/database.png" alt="Image" class="icon">
+                        </div>
+                        <div class="body">
+                            <h6 class="title">Database</h6>
+                            <p class="subtitle"><i class="ti-check"></i>MySQL Server</p>
+                            <p class="subtitle"><i class="ti-check"></i>PgSQL</p>
+                            <p class="subtitle"><i class="ti-check"></i>Firebase</p>
+                            <p class="subtitle"><i class="ti-check"></i>NoSQL Database</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <div class="circle">
+                            <img src="assets/imgs/about/server.png" alt="Image" class="icon">
+                        </div>
+                        <div class="body">
+                            <h6 class="title">Cloud</h6>
+                            <p class="subtitle"><i class="ti-check"></i>GCP/App Engine</p>
+                            <p class="subtitle"><i class="ti-check"></i>GCP</p>
+                            <p class="subtitle"><i class="ti-check"></i>Azure/Repos</p>
+                            <p class="subtitle"><i class="ti-check"></i>AWS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <div class="circle">
+                            <img src="assets/imgs/about/computer.png" alt="Image" class="icon">
+                        </div>
+                        <div class="body">
+                            <h6 class="title">Others</h6>
+                            <p class="subtitle"><i class="ti-check"></i>JIRA</p>
+                            <p class="subtitle"><i class="ti-check"></i>Postman</p>
+                            <p class="subtitle"><i class="ti-check"></i>GitHub/BitBucket</p>
+                            <p class="subtitle"><i class="ti-check"></i>Agile Methodology</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of Technical Skills section -->
+
+    <!-- Experience section -->
+    <section class="section" id="achievement">
+        <div class="container text-center">
+            <p class="section-subtitle">Where I have worked ?</p>
+            <h6 class="section-title mb-6">Experience</h6>
+            <!-- row -->
+            <div class="achievement-wrapper">
+                <div class="achievement-card">
+                    <div class="achievement-card-header">
+                        <img class="achievement-card-img geogreenapps" src="assets/imgs/experience/Geogreenapps.jpg"
+                            alt="Image">
+                    </div>
+                    <div class="achievement-card-body">
+                        <h3>Geogreenapps LLP</h3>
+                        <div class="achievement-card-list">
+                            <p>Role: Software Developer</p>
+                            <p>Duration: 2019 - 2020</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 achievement-card-btn" data-toggle="modal"
+                        data-target="#geogreenappModal">View Experience</a>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-card-header">
+                        <img class="achievement-card-img mplussoft" src="assets/imgs/experience/mplussoft.jpeg"
+                            alt="Image">
+                    </div>
+                    <div class="achievement-card-body">
+                        <h3>Mplussoft Technology</h3>
+                        <div class="achievement-card-list">
+                            <p>Role: Software Developer</p>
+                            <p>Duration: 2020 - 2022</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 achievement-card-btn" data-toggle="modal"
+                        data-target="#mplussoftModal">View Experience</a>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-card-header">
+                        <img class="achievement-card-img infosys" src="assets/imgs/experience/Infosys.jpg" alt="Image">
+                    </div>
+                    <div class="achievement-card-body">
+                        <h3>Infosys Limited</h3>
+                        <div class="achievement-card-list">
+                            <p>Role: Software Developer</p>
+                            <p>Duration: 2022 - Present</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 achievement-card-btn" data-toggle="modal"
+                        data-target="#infosysModal">View Experience</a>
+                </div>
+            </div><!-- end of experience wrapper -->
+        </div> <!-- end of container -->
+    </section> <!-- end of experience section -->
+
+    <!-- Geogreenapp Modal -->
+    <div class="modal fade" id="geogreenappModal" tabindex="-1" role="dialog" aria-labelledby="geogreenappModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="geogreenappModalLabel">Geogreenapps LLP</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="timeline">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="col-md-11">
+                                <h6>Junior Software Developer</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="line"></div>
+                            </div>
+                            <div class="col-md-11 achievement-card-list">
+                                <p>Design, Develop, Deploy</p>
+                                <p>Design, Develop, Deploy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="col-md-11">
+                                <h6>Software Intern</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                            </div>
+                            <div class="col-md-11 achievement-card-list">
+                                <p>Design, Develop, Deploy</p>
+                                <p>Design, Develop, Deploy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mplussoft Modal -->
+    <div class="modal fade" id="mplussoftModal" tabindex="-1" role="dialog" aria-labelledby="mplussoftModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mplussoftModalLabel">Mplussoft Technology</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="timeline">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="col-md-11">
+                                <h6>Senior Software Developer</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="line"></div>
+                            </div>
+                            <div class="col-md-11 achievement-card-list">
+                                <p>Design, Develop, Deploy</p>
+                                <p>Design, Develop, Deploy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="col-md-11">
+                                <h6>Software Developer</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                            </div>
+                            <div class="col-md-11 achievement-card-list">
+                                <p>Design, Develop, Deploy</p>
+                                <p>Design, Develop, Deploy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Infosys Modal -->
+    <div class="modal fade" id="infosysModal" tabindex="-1" role="dialog" aria-labelledby="infosysModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="infosysModalLabel">Infosys Limited</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="timeline">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="col-md-11">
+                                <h6>Technology Lead</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="line"></div>
+                            </div>
+                            <div class="col-md-11 achievement-card-list">
+                                <p>Design, Develop, Deploy</p>
+                                <p>Design, Develop, Deploy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="col-md-11">
+                                <h6>Senior Associate Consultant</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="line"></div>
+                            </div>
+                            <div class="col-md-11 achievement-card-list">
+                                <p>Design, Develop, Deploy</p>
+                                <p>Design, Develop, Deploy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="col-md-11">
+                                <h6>Associate Consultant</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">
+                            </div>
+                            <div class="col-md-11 achievement-card-list">
+                                <p>Design, Develop, Deploy</p>
+                                <p>Design, Develop, Deploy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Achievement section -->
+    <section class="section" id="achievement">
+        <div class="container text-center">
+            <p class="section-subtitle">My Achievements</p>
+            <h6 class="section-title mb-6">Certifications</h6>
+            <!-- row -->
+            <div class="achievement-wrapper">
+                <div class="achievement-card">
+                    <div class="achievement-card-header">
+                        <img class="achievement-card-img" src="assets/imgs/achievement/ACE.png" alt="Image">
+                    </div>
+                    <div class="achievement-card-body">
+                        <h3>Google Certified</h3>
+                        <h4>Cloud Engineer</h4>
+                        <div class="achievement-card-list">
+                            <p>Level: Associate</p>
+                            <p>Expiration Date: Nov 2026</p>
+                        </div>
+                    </div>
+                    <a href="https://scq.io/Gua7uAK" class="btn btn-primary mt-3 ace-card-btn">View
+                        Certificate</a>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-card-header">
+                        <img class="achievement-card-img" src="assets/imgs/achievement/PCA.png" alt="Image">
+                    </div>
+                    <div class="achievement-card-body">
+                        <h3>Google Certified</h3>
+                        <h4>Cloud Architect</h4>
+                        <div class="achievement-card-list">
+                            <p>Level: Professional</p>
+                            <p>Expiration Date: Jan 2027</p>
+                        </div>
+                    </div>
+                    <a href="https://sgq.io/yrcLI9Q" class="btn btn-primary mt-3 pca-card-btn">View
+                        Certificate</a>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-card-header">
+                        <img class="achievement-card-img" src="assets/imgs/achievement/AZ-204.png" alt="Image">
+                    </div>
+                    <div class="achievement-card-body">
+                        <h3>Microsoft Certified</h3>
+                        <h4>Azure Developer</h4>
+                        <div class="achievement-card-list">
+                            <p>Level: Associate</p>
+                            <p>Expiration Date: March 2025</p>
+                        </div>
+                    </div>
+                    <a href="https://learn.microsoft.com/api/credentials/share/en-gb/Vanns35-6797/2342EA286C1434CC?sharingId=C068C201F4240A8F"
+                        class="btn btn-primary mt-3 azure-card-btn">View Certificate</a>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-card-header">
+                        <img class="achievement-card-img" src="assets/imgs/achievement/AZ-400.png" alt="Image">
+                    </div>
+                    <div class="achievement-card-body">
+                        <h3>Microsoft Certified</h3>
+                        <h4>DevOps Engineer</h4>
+                        <div class="achievement-card-list">
+                            <p>Level: Expert</p>
+                            <p>Expiration Date: May 2025</p>
+                        </div>
+                    </div>
+                    <a href="https://learn.microsoft.com/api/credentials/share/en-gb/Vanns35-6797/8A2339AC122FFF86?sharingId=C068C201F4240A8F"
+                        class="btn btn-primary mt-3 certificate-card-btn">View Certificate</a>
+                </div>
+
+            </div><!-- end of achievement wrapper -->
+
+        </div> <!-- end of container -->
+
+        <div class="container text-center">
+            <h6 class="section-title mb-6"></h6>
+            <h6 class="section-title mb-6">Awards</h6>
+            <!-- row -->
+            <div class="achievement-wrapper">
+                <div class="achievement-card">
+                    <div class="achievement-card-header">
+                        <img class="achievement-card-icon" src="assets/imgs/achievement/medal.svg" alt="Image">
+                    </div>
+                    <div class="achievement-card-body">
+                        <h6 class="achievement-card-title">Fast learn Interns</h6>
+                        <div class="achievement-card-list">
+                            <p>Company: Geogreenapps</p>
+                        </div>
+                    </div>
+                    <!-- <a href="#" class="btn btn-primary mt-3 award1-card-btn">View Awards</a>
+                    <div class="achievement-image-card">
+                        <img src="assets/imgs/achievement/ACE.png" alt="Award Image" class="achievement-image">
+                    </div> -->
+
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-card-header">
+                        <img class="achievement-card-icon" src="assets/imgs/achievement/trophy.svg" alt="Image">
+                    </div>
+                    <div class="achievement-card-body">
+                        <h6 class="achievement-card-title">Phenomenal Leader</h6>
+                        <div class="achievement-card-list">
+                            <p>Company: Mplussoft Technology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-card-header">
+                        <img class="achievement-card-icon" src="assets/imgs/achievement/certificate.svg" alt="Image">
+                    </div>
+                    <div class="achievement-card-body">
+                        <h6 class="achievement-card-title">Cloud Professional</h6>
+                        <div class="achievement-card-list">
+                            <p>Company: Infosys</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of achievement wrapper -->
+        </div> <!-- end of container -->
+    </section><!-- end of achievement section -->
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to communicate?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <button id="show-contact-chat-button" class="btn btn-lg my-font btn-light rounded">
+                        Contact Me</button>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    <!-- testimonial section -->
+    <section class="section" id="testmonial">
+        <div class="container text-center">
+            <p class="section-subtitle">What They Say ?</p>
+            <h6 class="section-title mb-6">Testmonial</h6>
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="https://www.nbmcw.com/images/39-Logistics/44976-Gaurav-Bhushan.webp"
+                                class="testimonial-card-img" alt="Image">
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">Working with Vandana was a fantastic experience. I
+                                found her a technical professional with great experience and profund knowledge of
+                                technical solutions.
+                                She is always be ready to extend her help to learn.</p>
+                            <h6 class="testimonial-card-title">Gaurav Bhushan</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="assets/imgs/experience/avatar2.png" class="testimonial-card-img" alt="Image">
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">Vandana is an experienced react native developer. I
+                                always appreciate her for being enthusiastic and motivated. She always aspires to learn
+                                something new and always tries to overcome all the challenges</p>
+                            <h6 class="testimonial-card-title">Sharvaree Raje</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end of container -->
+    </section> <!-- end of testimonial section -->
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Details</h6>
+            <!-- contact details -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-detail">
+                        <i class="ti-email"></i>
+                        <h6>Email</h6>
+                        <p>vanns35.info@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-detail">
+                        <i class="ti-user"></i>
+                        <h6>Name</h6>
+                        <p>Vandana Ghadge</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-detail">
+                        <i class="ti-location-pin"></i>
+                        <h6>Address</h6>
+                        <p>Pune, Maharashtra, India</p>
+                    </div>
+                </div>
+            </div><!-- end of contact details -->
+        </div>
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; <a
+                    href="http://vanns35.github.io">Vanns35</a>
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://github.com/Vanns35" class="link"><i class="ti-github"></i></a>
+                <a href="https://in.linkedin.com/in/vanns35" class="link"><i class="ti-linkedin"></i></a>
+                <a href="https://twitter.com/Vanns35" class="link"><i class="ti-twitter-alt"></i></a>
+                <a href="https://www.instagram.com/vanns35" class="link"><i class="ti-instagram"></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Vanns35 js -->
+    <script src="assets/js/vanns35.js"></script>
+    <script src="assets/js/chat.js"></script>
+
 </body>
 
 </html>
